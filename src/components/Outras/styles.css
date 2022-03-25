@@ -1,0 +1,81 @@
+.content-projects-ou {
+  position: relative;
+  background-color: #E5E5E5;
+  padding-top: 30px;
+ padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
+.list-projects-ou {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title-project-ou {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 200;
+  
+}
+
+.item-list-projects-ou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.name-project-ou {
+  font-size: 1rem;
+  font-weight: 100;
+  padding-top: 20px;
+  letter-spacing: 4px;
+  
+}
+
+.usandoImagem-ou {
+  height: 100px;
+
+}
+
+.hab-titulo-ou {
+  color: black;
+    border: 5px solid black;
+    padding: 10px 55px 10px 55px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.container-titulo-ou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #E5E5E5;
+}
+
+.container-using-ou {
+  height: 90px;
+  background: #E5E5E5;
+}
+
+.using-ou {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: center;
+letter-spacing: 0.18538em;
+padding: 3rem 0 0 15rem;
+
+
+
+}
+
+

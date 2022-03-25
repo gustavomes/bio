@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+  
+   
+}
+
+.sobre-titulo {
+    color: black;
+    border: 5px solid black;
+    padding: 10px 55px 10px 55px;
+    margin-top: 100px;
+    
+    
+}
+
+.sobre-para {
+
+    color: black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.68%;    
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.separator {
+    margin-top: 50px;
+    height: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.tag1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 90px;
+
+}
+
+.tag-para {
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 30px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#bio {
+  /* background-color: brown; */
+  margin-top: 800px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  background-color: #1D1D1D;
+  background-image: url("../../assets/ti.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
+ 
+
+}
+
+.bio-para {
+  padding: 30px;
+  font-family: open sans, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  word-spacing: 4px;
+  text-align: justify;
+}
+
+h2 {
+  align-items: center;
+  color: #fff;
+  font-family: montserrat, arial, helvetica, sans-serif;
+
+  margin-left: 32px;
+  padding-top: 50px;
+  
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
