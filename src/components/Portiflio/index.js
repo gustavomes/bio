@@ -7,7 +7,7 @@ const imagePor = [
     name: "Checkpoint 01 - frontend II",
     image:
       "https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg",
-      link: "https://github.com/gustavomes/CTDfrontEnd/tree/main/checkpointI",
+      link: "https://gustavomes.github.io/frontEnd2_checkpoit1/ ",
   },
 
   {
@@ -21,38 +21,14 @@ const imagePor = [
 
   {
     id: "3",
-    name: "hgdhgdhgdhghgd",
+    name: "Projeto Veggie - App Vegano",
     image:
       "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/cachoeira-de-seljalandsfoss-na-islandia.jpeg?quality=70&strip=info&w=926",
       link: "https://github.com/gustavomes/Checkpoint02-FrontendII",
   },
 
 
-  {
-    id: "4",
-    name: "hgdhgdhgdhghgd",
-    image:
-      "https://media-manager.noticiasaominuto.com.br/1920/naom_593e45e24a6cc.jpg",
-      link: "https://github.com/gustavomes/Checkpoint02-FrontendII",
-  },
 
-
-  {
-    id: "5",
-    name: "hgdhgdhgdhghgd",
-    image:
-      "https://static.escolakids.uol.com.br/2019/07/paisagem-natural.jpg",
-      link: "https://github.com/gustavomes/Checkpoint02-FrontendII",
-  },
-
-
-  {
-    id: "6",
-    name: "hgdhgdhgdhghgd",
-    image:
-      "https://annphoto.net/wp-content/uploads/2021/03/Fotografia-de-paisagens-de-belas-artes-o-guia-completo.jpgfit1458969ssl1.jpeg",
-      link: "https://github.com/gustavomes/Checkpoint02-FrontendII",
-  },
 
 ];
 

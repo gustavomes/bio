@@ -10,9 +10,8 @@ export default function SobreMim () {
         <> 
         <div className="sobre">
             <h2 className="sobre-titulo">Sobre Mim</h2>
-            <p className="sobre-para">lorem ipsum dolor sit am rem, consectetur adipiscing elit in
-            sed efficitur, quam ac gravida vehicula,  sem turpis <br/> commodo augue, ut consectetur
-            turpis erat non velit. Vestibulum sollicitudin scelerisque turpis.
+            <p className="sobre-para">Fotógrafo profissional e estudante de desenvolvimento de software <br/> busco sempre me aprimorar 
+            e adiquirir novos conhecimentos.
             </p>
 
             
@@ -22,11 +21,11 @@ export default function SobreMim () {
         <div className="container-tags">
             <div className="tag1"> 
             <img src={foto} className="foto" alt="fotografia"/>
-            <p className="tag-para">lorem ipsum dolor sit amrem, <br/>   consectetur adipiscing elit in </p>
+            <p className="tag-para">fotógrafo profissional com  <br/> mais de 10 anos de experiência </p>
             </div>
             <div className="tag2"> 
             <img src={desen} className="desen" alt="desenvolvimento"/>
-            <p className="tag-para">lorem ipsum dolor sit amrem, <br/> consectetur  adipiscing elit in </p>
+            <p className="tag-para"> Fazendo graduação em  <br/> Sistemas de Informação e cursando  <br/> Certified Tech Developer na Digital House Brasil </p>
             </div>
 
             
