@@ -7,7 +7,7 @@ import withReactContent from "sweetalert2-react-content";
 export default function Contato () {
   return (
     <>
-    <div className="sobre">
+    <div className="sobre" id="contato">
             <h2 className="sobre-titulo-cont">Contato</h2>
     
 

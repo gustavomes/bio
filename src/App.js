@@ -24,6 +24,7 @@ function App() {
       <Outras />
       <Portifolio />
       <Contato />
+      
 
       
      

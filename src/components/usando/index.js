@@ -70,7 +70,7 @@ const data = [
 export default function Usando() {
   return (
     <>
-    <div className="container-titulo">
+    <div className="container-titulo" id="hab">
       <h2 className="hab-titulo">Habilidades</h2>
     </div>
     <div className="container-using">

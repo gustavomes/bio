@@ -8,7 +8,7 @@ export default function SobreMim () {
 
     return (
         <> 
-        <div className="sobre">
+        <div className="sobre" id="sobre">
             <h2 className="sobre-titulo">Sobre Mim</h2>
             <p className="sobre-para">Fotógrafo profissional e estudante de desenvolvimento de software <br/> busco sempre me aprimorar 
             e adiquirir novos conhecimentos.

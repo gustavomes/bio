@@ -14,14 +14,16 @@ export default function Header(props) {
        <img src={logo} className="logo"/> 
 
       <ul className="menu">
-        <li className="item-menu" onClick={() => scrollToComponent("projects")}>
-          Projetos
+        <li className="item-menu" onClick={() => scrollToComponent("bio")}>
+          Bio
         </li>
-        <li className="item-menu" onClick={() => scrollToComponent("about")}>
-          Ferramentas
+        <li className="item-menu" onClick={() => scrollToComponent("sobre")}>
+          Sobre Mim
         </li>
-        <li className="item-menu">Sobre</li>
-        <li className="item-menu">Sobre</li>
+        <li className="item-menu"  onClick={() => scrollToComponent("hab")}>Habilidades</li>
+        <li className="item-menu" onClick={() => scrollToComponent("porti")}>Portifolio</li>
+        <li className="item-menu" onClick={() => scrollToComponent("contato")}>Contato</li>
+
       </ul>
     </header>
   );
