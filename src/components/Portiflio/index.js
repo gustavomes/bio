@@ -4,6 +4,15 @@ const Por = [
 
   {
     id: "1",
+    name: "Checkpoint I - Front End I",
+    sub: "Cidade de Niterói",
+    image:
+      "https://www.ofluminense.com.br/_midias/jpg/2021/08/26/845x384/1_dji_0244-470079.jpg",
+      link: "https://gustavomes.github.io/checkpointFrontEnd/ ",
+  },
+
+  {
+    id: "2",
     name: "Checkpoint I - Front End II",
     sub: "escolha seu campeão no LoL",
     image:
@@ -12,7 +21,7 @@ const Por = [
   },
 
   {
-    id: "2",
+    id: "3",
     name: "Checkpoint II - Front End II",
     sub: "Todo List",
     image:
@@ -22,16 +31,13 @@ const Por = [
 
 
   {
-    id: "3",
+    id: "4",
     name: "Projeto Veggie",
     sub: "app de produtos veganos",
     image:
       "https://veganbusiness.com.br/wp-content/uploads/2019/02/aplicativos-veganos.jpg",
       link: "https://github.com/gustavomes/Checkpoint02-FrontendII",
   },
-
-
-
 
 ];
 
@@ -43,33 +49,33 @@ const logo = "https://cdn.geckoandfly.com/wp-content/uploads/2018/03/yosemite-59
       <>
     <div className="port-header-por" id="ajuste-botao">  
     
-    <h2 className="sobre-titulo-por" id="porti">Portifolio </h2>
-    </div>
-      <div className="header-por">
-    <ul className="menu-por">
-        <li className="item-menu-por">
-          Meus Projetos
-        </li>
-        
-      </ul>     
-      </div>
+        <h2 className="sobre-titulo-por" id="porti">Portifolio </h2>
+        </div>
+              <div className="header-por">
+            <ul className="menu-por">
+                <li className="item-menu-por">
+                  Meus Projetos
+                </li>
+                
+              </ul>     
+        </div>
 
-      <div className="container-portifolio"> 
-      
-      <ul className="list-por">
-        {Por.map(({ image, name, sub, link }) => (
-          <a href={link} target="_blank">
-            <li className="item-list-projects-por-container">
-              <img src={image} className="usandoImagemPor" />
-              <h5 className="name-project-por" id="centered"> {name} </h5>
-              <h2 className="name-project-por" id="centered2"> {sub} </h2>
-            </li>
+        <div className="container-portifolio"> 
               
-          </a>
-        ))}
-      </ul>
+              <ul className="list-por">
+                {Por.map(({ image, name, sub, link }) => (
+                  <a href={link} target="_blank">
+                    <li className="item-list-projects-por-container">
+                      <img src={image} className="usandoImagemPor" />
+                      <h5 className="name-project-por" id="centered"> {name} </h5>
+                      <h2 className="name-project-por" id="centered2"> {sub} </h2>
+                    </li>
+                      
+                  </a>
+                ))}
+              </ul>
 
-      <div className="footer-por">
+        <div className="footer-por">
        
       </div>
 
