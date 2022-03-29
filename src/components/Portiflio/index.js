@@ -58,7 +58,7 @@ const logo = "https://cdn.geckoandfly.com/wp-content/uploads/2018/03/yosemite-59
       
       <ul className="list-por">
         {Por.map(({ image, name, sub, link }) => (
-          <a href={link}>
+          <a href={link} target="_blank">
             <li className="item-list-projects-por-container">
               <img src={image} className="usandoImagemPor" />
               <h5 className="name-project-por" id="centered"> {name} </h5>

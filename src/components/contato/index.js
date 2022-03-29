@@ -50,6 +50,7 @@ export default function Contato () {
 
           return errors;
         }}
+
         onSubmit={(values) =>
           MySwal.fire({
             title: "Meu Formulario",
@@ -60,8 +61,8 @@ export default function Contato () {
           }).then(() => {
             return MySwal.fire(<p>{values.email}</p>);
           })
-        }
-      >
+          }
+        >
         {({ values, handleSubmit, errors, handleChange, resetForm }) => (
           <form onSubmit={handleSubmit}>
             <div className="header-form">
