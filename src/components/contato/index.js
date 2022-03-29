@@ -116,8 +116,8 @@ export default function Contato () {
            
             <label>
               <span>Mesagem</span>
-              <textarea className="input-cont" id="w3review" name="w3review" rows="4" cols="50">
-                digite sua mensagem
+              <textarea className="input-cont" id="w3review" name="w3review" rows="4" cols="50" placeholder="Deixe sua mensagem">
+                
               </textarea>
             </label>
 
