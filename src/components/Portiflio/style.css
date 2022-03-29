@@ -1,15 +1,103 @@
-.port-header{
+.port-header-por{
     width: 100vw;
-    height: 200px;
+    height: 220px;
     background: url("https://cdn.geckoandfly.com/wp-content/uploads/2018/03/yosemite-5932x3337-5k-4k-wallpaper-8k-forest-osx-apple-mountains-181-830x467.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     filter: saturate(0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
     
 }
 
-.logo-port{
-   
-   
+.ajuste-botao-por{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-por {
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding: 0 20px;
+    background: #1A1A1A;
+    color: white;
+    
+  
+  }
+  
+  .menu-por {
+    display: flex;
+    list-style: none;
+    
+    
+  }
+  
+  .item-menu-por {
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: var(--font-family);
+    padding: 5px;
+    padding-top: 20px;
+    
+  }
+
+  .list-por {
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
+        flex-wrap: wrap;
+        grid-row-gap: 0;
+        background-color: black;
+        margin-bottom: 0; 
+        
+  }
+
+  .usandoImagemPor {
+    height: 400px;
+    width: 640px;
+
+  
+  }
+
+  .sobre-titulo-por {
+    color: black;
+    border: 5px solid black;
+    padding: 10px 55px 10px 55px;
+    width: 350px;
+    
+    
+}
+
+.footer-por {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  padding: 0 20px;
+  background: #1A1A1A;
+  color: white;
+}
+
+.name-project-por {
+  font-size: 1rem;
+  font-weight: 100;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  letter-spacing: 4px;
+  font-family: var(--font-family);
+  
 }

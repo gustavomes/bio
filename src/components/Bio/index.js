@@ -5,20 +5,27 @@ export default function Bio() {
     <main id="bio">
       <h2> BIO </h2>
       <p className="bio-para">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur,
-        quam ac gravida vehicula, sem turpis commodo augue, ut consectetur
-        turpis erat non velit. Vestibulum sollicitudin scelerisque turpis.
-        Aliquam metus diam, facilisis ut vestibulum ac, hendrerit vitae turpis.
-        Donec fringilla tempor lectus, at dictum lacus finibus ut. Cras
-        fermentum neque quis nisi vestibulum posuere. Proin venenatis, urna
-        vitae egestas gravida, dui mi congue sem, et accumsan risus erat eget
-        justo. Suspendisse placerat est a odio gravida finibus. Nunc massa nunc,
-        luctus nec pulvinar et, porttitor a elit. In fermentum metus non dictum
-        cursus. Sed non aliquam nisi. Suspendisse vel vehicula diam. Morbi
-        scelerisque mollis nibh sed tristique. Nulla eget massa cursus, tempus
-        elit non, suscipit nibh. Donec non tellus purus. Nullam ornare euismod
-        mauris sed facilisis.
+      Sou Gustavo Medeiros, fotógrafo de de família e casamento há mais três anos
+em Niterói, no Rio e onde mais a fotografia me levar.
+A fotografia para mim, como para muitos fotógrafos, aconteceu por “acaso”
+como ocorrem na maioria das grandes paixões. Mas chegou com tudo e, sem
+a menor cerimônia, foi tomando parte importante na minha vida. E como tudo
+que é bom, ela não veio sozinha. Conheci muita gente querida, fotógrafos com
+os quais trabalhei, convivi e aprendi. Casais e famílias que tive a alegria de
+poder contar um pedacinho da história. Ou seja, muitos amigos que fiz e, certamente,
+ainda farei.
+Busco usar minha técnica, sensibilidade e dedicação para capturar imagens
+naturais e espontâneas, criando um registro único, atemporal e cheio de detalhes
+de pessoas que se amam.
+Por falar em paixão, vou confessar uma bem maior que a fotografia: Minha
+família.
+É com minha esposa Roberta e com meus dois filhos Pedro e Fernanda que
+busco inspiração para registrar o amor de outras famílias.
+Conheça um pouco mais meu trabalho pelos links abaixo:
+
       </p>
+
+      <a href="http://www.gustavomedeiros.fot.br" id="link-bio"> http://www.gustavomedeiros.fot.br </a>
       
     </main>
   );

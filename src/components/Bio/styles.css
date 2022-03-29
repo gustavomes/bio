@@ -4,13 +4,11 @@
 #bio {
   /* background-color: brown; */
   margin-top: 800px;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 50px;
+  padding: 0 30px;
   background-color: #1D1D1D;
-  background-image: url("../../assets/ti.png");
   background-repeat: no-repeat;
   background-position: right;
 
@@ -37,4 +35,14 @@ h2 {
   
   letter-spacing: 3px;
   word-spacing: 4px;
+}
+#link-bio {
+  color: #fff;
+  font-family: montserrat, arial, helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-left: 50px;  
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

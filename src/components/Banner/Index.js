@@ -17,9 +17,9 @@ export default function Banner() {
         <h4 className="sub"> Front-end Developer</h4>
       </div>
       <div className="social">
-      <a href="http://"><img src={inst} className="insta" alt="insta"/></a>
-      <a href="http://"><img src={git} className="git" alt="git"/></a>
-      <a href="http://"> <img src={link} className="link" alt="link"/></a>
+      <a href="https://www.instagram.com/gustavomedeirosfoto/"><img src={inst} className="insta" alt="insta"/></a>
+      <a href="https://github.com/gustavomes"><img src={git} className="git" alt="git"/></a>
+      <a href="https://www.linkedin.com/in/gustavo-medeiros-385931213/"> <img src={link} className="link" alt="link"/></a>
       </div>
     </div>
   </div>
