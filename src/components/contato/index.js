@@ -7,20 +7,10 @@ import withReactContent from "sweetalert2-react-content";
 export default function Contato () {
   return (
     <>
-    <div className="sobre" id="contato">
+    <div className="sobre-cont" id="contato">
             <h2 className="sobre-titulo-cont">Contato</h2>
-    
 
-        <div className="container-tags-cont">
-            <div className="tag1-cont"> 
-            
-            </div>
-            <div className="tag2-cont"> 
-          
-            
-            </div>
-
-            <div className="App">
+       <div className="App">
       
       <Formik
         initialValues={{
@@ -80,7 +70,7 @@ export default function Contato () {
 
             <label>
               <span>Nome</span>
-              <input
+              <input className="input-cont"
                 autoComplete="off"
                 type="text"
                 value={values.nome}
@@ -92,7 +82,7 @@ export default function Contato () {
 
             <label>
               <span>Email</span>
-              <input
+              <input className="input-cont"
                 autoComplete="off"
                 type="email"
                 value={values.email}
@@ -113,7 +103,7 @@ export default function Contato () {
                 name="telefone"
                 onChange={handleChange}
               /> */}
-              <InputMask
+              <InputMask className="input-cont"
                 autoComplete="off"
                 mask="(99) 99999-9999"
                 onChange={handleChange}
@@ -126,7 +116,7 @@ export default function Contato () {
            
             <label>
               <span>Mesagem</span>
-              <textarea id="w3review" name="w3review" rows="4" cols="50">
+              <textarea className="input-cont" id="w3review" name="w3review" rows="4" cols="50">
                 digite sua mensagem
               </textarea>
             </label>
@@ -143,9 +133,9 @@ export default function Contato () {
     </div>
 
             
-        </div>
+</div>
       
-        </div>
+  
     
     </>
   );

@@ -3,25 +3,25 @@
   --common-font: 'Montserrat', sans-serif;
 }
 
-header {
+footer {
   /* background: rebeccapurple; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
-  padding: 0 20px;
+  height: 70px;
+  padding: 20px 20px;
   background: black;
   color: white;
 
 }
 
-.menu {
+.menu-footer {
   display: flex;
   list-style: none;
   
 }
 
-.item-menu {
+.item-menu-footer {
   margin: 0 10px;
   font-size: 1.1rem;
   cursor: pointer;
@@ -31,7 +31,7 @@ header {
   padding-top: 20px;
 }
 
-.logo {
+.logo-footer {
   width: 290px;
   padding-top: 20px;
 }

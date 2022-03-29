@@ -7,7 +7,7 @@ const data = [
  
   {
     id: "1",
-    name: "INGLÊS",
+    name: "INGLÊS (intermediário +)",
     image:
       "https://images.vexels.com/media/users/3/164649/isolated/preview/010f55d9bb5f8a28c3620583482d89ed-circulo-do-icone-do-idioma-da-bandeira-dos-eua.png",
   },

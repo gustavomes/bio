@@ -9,6 +9,7 @@ import Aprendendo from "./components/aprendendo";
 import Outras from "./components/Outras";
 import Portifolio from "./components/Portiflio";
 import Contato from "./components/contato";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Outras />
       <Portifolio />
       <Contato />
+      <Footer/>
       
 
       

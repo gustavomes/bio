@@ -8,6 +8,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #E5E5E5;
+    
   
    
 }
@@ -84,7 +85,10 @@
   }
   
   .container-buttons {
+    
     display: flex;
+    width: 120%;
+    justify-content: center;
     gap: 20px;
   }
   
@@ -103,6 +107,7 @@
     width: 200px;
     margin-top: 20px;
     color: black;
+    margin-bottom: 70px;
   }
   
   button:hover {
@@ -131,10 +136,15 @@
     background-color: #E5E5E5;
     font-size: 18px;
     padding: 0 10px;
+    width: 120%;
     
   }
 
 
+.input-cont{
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
   
   label > span:last-child {
     color: red;
@@ -142,4 +152,11 @@
 
   textarea {
       background-color: #E5E5E5;
+      width: 120%;
+      padding: 15px;
+  }
+
+  .placeholder {
+
+    margin-left: 5px;
   }
